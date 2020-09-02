@@ -1,41 +1,44 @@
-# Dataset Exploration Ford Bike System Data 2017
+# (Ford GoBike Exploration)
 
-## by khalid al-jarba 
-The shape of the data set is (519700, 9)
- The colums :
-- Trip Duration "seconds" :
+## by (Abdullah Al-Abdullatif)
 
--Start Time and "Date"
 
--End Time and "Date"
+## Dataset
 
--Start Station "ID"
+This dataset containing Ford GoBikes trip data in 2017 from June to December. Before start exploration the dataset , I follow all steps in wrangling process and after complete this process end with : 
+519,700 trips with 10 features:
+| Variable Name      |   |   |   |   |
+|--------------------|---|---|---|---|
+| duration_sec       |   |   |   |   |
+| start_time         |   |   |   |   |
+| end_time           |   |   |   |   |
+| start_station_name |   |   |   |   |
+| end_station_name   |   |   |   |   |
+| bike_id            |   |   |   |   |
+| user_type          |   |   |   |   |
+| hour_of_day        |   |   |   |   |
+| month              |   |   |   |   |
+| day_of_week        |   |   |   |   |
 
--Start Station "Name"
-
--End Station "Name"
-
--Bike "ID"
-
--User Type (Subscriber or Customer – “Subscriber” = Member or “Customer” = Casual)
-
--month "date"
-
--day_of_month "date"
 
 ## Summary of Findings
+
 Univariate Exploration:
-First i started convert a second to a minute.
-Second we know the distribution appears to be closer to the normal distribution
-Third i found the number bike trip by Subscriber and customer 
-fourth i found the Average of the Months trips.
+- I converted a second to a minute.
+- We know the distribution appears to be closer to the normal 
+  distribution.
+- I found the number of bike trip by subscriber and customer 
+- I found the Average of the Months trips.
+
  Bivariate Exploration : 
-i found Trip Duration(min) vs Days , The relationship between user type and weekdays , Trip Duration(min) vs Months.
-On Multivariate Exploration:
-I found the Trip Duration(min) against Months and user_type
+- I found Trip Duration in min VS Days , the relationship between user type and weekdays , trip Duration in min VS months.
+
+Multivariate Exploration:
+- I found the Trip Duration in min VS months and user type
 
 ## Key Insights for Presentation
 
-From this, we know that subscribers are the majority, with a great difference from customers.
-From what we see on weekends, users use longer bikes than on the rest of the week
-We have seen that customers often use the bike for a much longer duration than subscribers. From this we can make some assumptions and may lead to some insights that we can benefit from.
+- From that, we know that the subscribers are the majority with a great difference with customers.
+- From that we see on Saturday and Sunday users use longer bikes than on the rest of the week.
+- We have seen that the customers often use the bike for a much longer duration than subscribers. 
+- From that we can make some assumptions and may lead to some insights that we can benefit from.
